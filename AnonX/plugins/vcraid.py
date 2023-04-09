@@ -168,7 +168,7 @@ async def ping(_, e: Message):
 
 
 @app.on_message(filters.user(SUDOERS) & filters.command(["raidend"]))
-async def ping(_, e: Message):
+async def ping(_ e: Message):
     gid = e.chat.id
     uid = e.from_user.id
     if gid == uid:
