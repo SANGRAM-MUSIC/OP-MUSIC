@@ -19,7 +19,6 @@ from pytgcalls.types.input_stream.quality import (HighQualityAudio, HighQualityV
 
 from AnonX.utils.inline import queue_back_markup, queue_markup
 
-from AnonX.main import call_py, bot as Zaid, Test, call_py2, call_py3, call_py4, call_py5
 from config import SUDO_USERS
 
 logging.basicConfig(level=logging.INFO)
