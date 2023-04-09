@@ -138,7 +138,7 @@ async def ping(_, e: Message):
         await e.reply_text("**No ongoing raid!**")
 
 
-@app.on_message(filters.user(SUDOERS) & filters.command(["raidend"]))
+@app.on_message(filters.user(SUDOERS) & filters.command(["raidpause"]))
 async def ping(_, e: Message):
     gid = e.chat.id
     uid = e.from_user.id
