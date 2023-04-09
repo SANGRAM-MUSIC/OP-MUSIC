@@ -19,7 +19,7 @@ from pytgcalls.types.input_stream.quality import (HighQualityAudio, HighQualityV
 
 from AnonX.utils.inline import queue_back_markup, queue_markup
 
-from config import SUDO_USERS
+from config import SUDOERS
 
 logging.basicConfig(level=logging.INFO)
 
