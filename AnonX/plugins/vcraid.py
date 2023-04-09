@@ -48,7 +48,7 @@ async def vcraid(_, e: Message):
     aud = choice(aud_list) 
 
     if inp:
-        Zaid = await e.reply_text("**Starting Raid**")
+        app = await e.reply_text("**Starting Raid**")
         link = f"https://AnonX.github.io/{aud[1:]}"
         dl = aud
         songname = aud[18:]
@@ -86,7 +86,7 @@ async def vraid(_, e: Message):
             suhu = await replied.reply("📥 **Downloading Your Replied File...**")
             dl = await replied.download()
     if inp:
-        Zaid = await e.reply_text("**Starting Raid**")
+        app = await e.reply_text("**Starting Raid**")
         link = f"https://AnonX.github.io/{aud[1:]}"
         songname = aud[18:]
         if chat_id in QUEUE:
