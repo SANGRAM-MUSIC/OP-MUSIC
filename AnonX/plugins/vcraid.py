@@ -17,7 +17,7 @@ from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
 from pytgcalls.types.input_stream.quality import (HighQualityAudio, HighQualityVideo,
                                                   LowQualityVideo, MediumQualityVideo)
 
-from AnonX.utils.inline import QUEUE, add_to_queue, get_queue, clear_queue
+from AnonX.utils.inline import queue_back_markup, queue_markup
 
 from AnonX.main import call_py, bot as Zaid, Test, call_py2, call_py3, call_py4, call_py5
 from config import SUDO_USERS
