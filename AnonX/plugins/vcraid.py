@@ -16,7 +16,7 @@ from pytgcalls import StreamType
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
 from pytgcalls.types.input_stream.quality import (HighQualityAudio, HighQualityVideo,
                                                   LowQualityVideo, MediumQualityVideo)
-
+from AnonX import app
 from AnonX.utils.inline import queue_back_markup, queue_markup
 
 from AnonX.misc import SUDOERS
